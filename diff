@@ -1,0 +1,38 @@
+--- /dev/null
++++ b/docs/README.md
+@@ ... @@
++# OctoAcme Project Management Docs
++
++This directory is the central hub for OctoAcme’s program-level project management process documentation. The purpose is to convert team know-how into searchable, versioned, and collaborative documentation accessible to everyone. These living docs help ensure consistent, repeatable project execution, accelerate onboarding, and reduce dependency on any one individual’s institutional knowledge.
++
++## Overview of Project Management Processes
++
++OctoAcme projects follow a clearly defined lifecycle from initiation to close:  
++1. **Initiation** – Every project starts with a one-pager that establishes the business case, success metrics, stakeholders, and a high-level timeline.  
++2. **Planning** – The team hosts a kickoff, creates a prioritized backlog with acceptance criteria, estimates work, and maps out releases. Dependencies and risks are recorded in a register and planning checklist.
++3. **Execution & Tracking** – Work is tracked on a project board (Backlog → Ready → In Progress → In Review → QA → Done). Delivery teams sync daily via standups and weekly with demos and risk reviews. All code changes follow a strict PR workflow and undergo automated tests, reviews, and quality gates before merging.
++4. **Release & Deployment** – Releases are categorized (patch, minor, major) and go through structured checklists covering tests, release notes, rollback plans, and stakeholder communication. Smoke testing and post-release verification ensure safe deployments.
++5. **Retrospective & Continuous Improvement** – After each milestone, the team runs retros to identify wins and improvement areas, tracks action items, and reviews progress at regular intervals.
++
++Key roles include the Project Manager (delivery, risk, comms), Product Manager (priorities, success), Developers (features, quality), QA (test/acceptance), and Stakeholders (inputs, approvals). Risk management is lightweight but deliberate, with weekly updates and proactive mitigation. Communication happens through scheduled standups, syncs, and documented updates using provided templates. Every process has a checklist so nothing falls through the cracks.
++
++To propose changes or suggest improvements, open an issue using [the “Add Content to Project Management Process Docs” template](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
++
++## Linked Docs
++
++- [Project Management Overview](./octoacme-project-management-overview.md)
++- [Project Initiation Guide](./octoacme-project-initiation.md)
++- [Project Planning](./octoacme-project-planning.md)
++- [Execution & Tracking](./octoacme-execution-and-tracking.md)
++- [Risk Management & Communication](./octoacme-risks-and-communication.md)
++- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
++- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
++- [Roles and Personas](./octoacme-roles-and-personas.md)
++
++## How to Propose Process Changes
++
++1. Open an issue using the [process docs issue template](../.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml).
++2. Describe the proposed change, rationale, and suggested content.
++3. Assign reviewers and link the issue in your Pull Request.
++
++> This README is the single entry point for program process documentation for the OctoAcme team. Help keep it current!
